@@ -1,0 +1,125 @@
+@import url(./normalize.css);
+@import url(./vars.css);
+
+html,
+body {
+    width: 100vw;
+    height: 100%;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: var(--main-font-size);
+    color: var(--main-color);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    border: 25px solid #2B81AC;
+    background-color: #3399CC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: start;
+    max-width: 1166px;
+    width: 100%;
+}
+
+.title>h1 {
+    font-size: 1rem;
+    margin: 0 4px 0 0;
+    font-weight: 500;
+    line-height: 0.875;
+}
+
+.weather-table {
+    max-width: 1166px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px white solid;
+}
+
+.row {
+    display: flex;
+}
+
+.weather-card {
+    box-sizing: border-box;
+    flex-basis: 291.5px;
+    padding: 26px 0;
+    text-align: center;
+    border: 2px white solid;
+}
+
+.weather-card>h2 {
+    margin: 0 0 15px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 0.875;
+}
+
+.weather-card>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-card p {
+    opacity: 0.7;
+    margin: 0 10px 0 0;
+}
+
+.lisbon {
+    flex: 1;
+    background-color: #3399CC;
+}
+
+.paris {
+    background-color: #33CCCC;
+}
+
+.belfrade {
+    background-color: #996699;
+}
+
+.venice {
+    background-color: #C24747;
+}
+
+.tel-aviv {
+    background-color: #E2674A;
+}
+
+.cair {
+    background-color: #FFCC66;
+}
+
+.new-york {
+    background-color: #99CC99;
+}
+
+.new-dehli {
+    background-color: #669999;
+}
+
+.san-francisco {
+    flex-grow: 2;
+    background-color: #CC6699;
+}
+
+.tokyo {
+    background-color: #339966;
+}
+
+.sydney {
+    flex: 1;
+    background-color: #666699;
+}
