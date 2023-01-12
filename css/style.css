@@ -45,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     border: 2px white solid;
+    background-color: white;
     margin-bottom: 40px;
 }
 
@@ -58,6 +59,14 @@ body {
     padding: 26px 0;
     text-align: center;
     border: 2px white solid;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.weather-card:hover {
+    filter: none;
+    cursor: pointer;
+    opacity: 1;
 }
 
 .weather-card>h2 {
