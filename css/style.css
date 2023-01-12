@@ -60,12 +60,11 @@ body {
     text-align: center;
     border: 2px white solid;
     opacity: 0.8;
-    cursor: pointer;
+    cursor: url('../assets/img/cursor/cursor.png'), auto;
 }
 
 .weather-card:hover {
     filter: none;
-    cursor: pointer;
     opacity: 1;
 }
 
